@@ -1,4 +1,10 @@
-CREATE TABLE inventory (id INTEGER PRIMARY KEY, name TEXT, price REAL, aisle INTEGER, stock_qty INTEGER);
+CREATE TABLE inventory (
+  id        INTEGER PRIMARY KEY, 
+  name      TEXT, 
+  price     REAL, 
+  aisle     INTEGER, 
+  stock_qty INTEGER
+);
 
 INSERT INTO inventory VALUES (1, "WoW: Shadowlands", 59.95, 1, 81);
 INSERT INTO inventory VALUES (2, "Call of Duty", 89.95, 2, 156);
